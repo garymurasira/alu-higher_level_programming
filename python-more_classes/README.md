@@ -1,0 +1,1 @@
+Intranet project about more classes and objects
