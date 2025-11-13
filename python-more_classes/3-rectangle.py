@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class for representing and 
+This module defines a Rectangle class for representing and
 manipulating rectangles.
-It includes methods for calculating area, perimeter, and 
+It includes methods for calculating area, perimeter, and
 string representation.
 """
 
