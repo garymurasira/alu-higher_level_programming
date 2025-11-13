@@ -3,16 +3,18 @@
 
 
 class Rectangle:
-    """documentedd"""
+    """documenteddd"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
     @property
+    """documented"""
     def width(self):
         return self.__width
 
     @width.setter
+    """docummented"""
     def width(self, value):
         if not isinstance(value, int):
             raise TypeError('width must be an integer')
@@ -21,10 +23,12 @@ class Rectangle:
         self.__width = value
 
     @property
+    """documented"""
     def height(self):
         return self.__height
 
     @height.setter
+    """documented"""
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError('height must be an integer')
@@ -33,16 +37,18 @@ class Rectangle:
         self.__height = value
 
     def area(self):
+        """documented"""
         return self.__width * self.height
 
     def perimeter(self):
+        """documented"""
         if self.width == 0 or self.height == 0:
             return 0
         else:
             return 2 * (self.width + self.height)
     
     def __str__(self):
-        """ducumentedd"""
+        """ducumenteddd"""
     if self.width == 0 or self.height == 0:
         return ""
     else:
