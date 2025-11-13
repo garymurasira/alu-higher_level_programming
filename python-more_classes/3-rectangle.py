@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""documented"""
+"""documentedd"""
 
 
 class Rectangle:
-    """documented"""
+    """documentedd"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
