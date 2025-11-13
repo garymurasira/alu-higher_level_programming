@@ -5,17 +5,22 @@
 class Rectangle:
     """documenteddd"""
     def __init__(self, width=0, height=0):
+        """
+        Initializes a new Rectangle instance.
         self.width = width
-        self.height = height
-
+        self.height = height"""
     @property
     """documented"""
     def width(self):
-        return self.__width
+        """
+        Retrieves the width of the rectangle.
+        return self.__width"""
 
     @width.setter
     """docummented"""
     def width(self, value):
+        """
+        Sets the width of the rectangle with validation."""
         if not isinstance(value, int):
             raise TypeError('width must be an integer')
         if value < 0:
@@ -25,6 +30,8 @@ class Rectangle:
     @property
     """documented"""
     def height(self):
+        """
+        Retrieves the height of the rectangle."""
         return self.__height
 
     @height.setter
