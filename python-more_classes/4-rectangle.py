@@ -114,10 +114,11 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         return "\n".join("#" * self.width for _ in range(self.height))
-    
+
     def __repr__(self):
         """
-        Returns a string representation that can recreate the rectangle using eval().
+        Returns a string representation that can recreate the
+        rectangle using eval().
 
         Returns:
             str: A string in the format Rectangle(width, height).
