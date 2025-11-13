@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+This module defines MyList, a subclass of list with a custom print method.
+"""
 
 
 class MyList(list):
